@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>Tic-Tac-Toe</title>
+        <link type="text/css" rel="stylesheet" href="main.css">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+        <link href="https://fonts.googleapis.com/css?family=Patua+One" rel="stylesheet">
+    </head>
+    <body>
+        <button id="logout" onclick="location.href='../index.html'">Logout</button>
+        <p class="center">TIC-TAC-TOE GAME</p>
+        <div id="score">
+                    Player 1: <span id="p1points">0</span> <br />
+                    Player 2: <span id="p2points">0</span> <br />
+         </div>
+            <div class="box">
+            <ul id="game">
+                <li pos="0,0"></li>
+                <li pos="0,1"></li>
+                <li pos="0,2"></li>
+                <li pos="1,0"></li>
+                <li pos="1,1"></li>
+                <li pos="1,2"></li>
+                <li pos="2,0"></li>
+                <li pos="2,1"></li> 
+                <li pos="2,2"></li>
+            </ul>
+            </div>
+            <div id="win">
+                <span class="Xwin">Player1 Wins!!!</span>
+                <span class="Owin">Player2 Wins!!!</span>
+                <span class="draw">Draw!!!</span>
+            </div>
+            <button id="reset">Reset</button>
+          
+        </div>
+        <script type="text/javascript" src="main.js"></script>
+    </body>
+</html>

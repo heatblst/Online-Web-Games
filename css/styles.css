@@ -1,0 +1,151 @@
+
+body
+{
+    margin: 0;
+    padding: 0
+    font-family : sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color:#20B2AA;
+  border-radius: 0;
+  border: 0;
+}
+.dropdown{
+   padding-left: 50px;
+   padding-top: 3px;
+}
+
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1 {
+  font-family: 'Lora', serif;
+  color: #557c3e;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 10px;
+  
+}
+#nav-list a {
+  color:#4B0082 ;
+  text-align: center;
+  font-weight: bold;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.name{
+  height:40px;
+  max-width: 2000px;
+  display: block;
+  background-color:#F0E68C;
+  
+}
+
+.txt{
+  text-align: center;
+  font-family: 'Lora', serif;
+  color:black;
+  font-size: 2em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+  padding-top:8px;
+}
+ 
+  
+ 
+.portfolio-img
+{
+    height: 300px;
+    width: 450px;
+    border: 2px solid #90EE90;
+}
+
+.services
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.services h1
+{
+  margin-bottom: 15px;
+  font-family: 'Lora', serif;
+  color:black;
+  font-size: 2em;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+}
+.service p{
+  font-family: Lobster;
+  font-size: 2em;
+}
+
+.service-box
+{
+    background: #f9f9f9;
+    padding: 10px;
+    margin-top: 20px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.service-box .fa
+{
+    margin: 0 10px;
+    font-size: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.service-box span
+{
+    margin: 3px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.service-box:hover
+{
+    background: skyblue;
+    color: #fff;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 50px; 
+    border-bottom-left-radius: 50px;
+    transition: 1s;
+}
+
+/* FOOTER */
+.footer {
+   background-color: #222;
+   text-align: center;
+   padding-top: 10px;
+   padding-bottom: 5px;
+   color: E2DBDB;
+}
+/* END FOOTER */
+
+

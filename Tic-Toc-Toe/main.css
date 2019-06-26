@@ -1,0 +1,85 @@
+body {
+    background-color:#DADAD8;
+    text-align:center;
+    font-family:PT Serif 40px;
+}
+.center { 
+          font-size: 40px;
+          color: #FF3339;
+          text-decoration: underline;
+          font-style: italic;
+}
+#score{
+    font-family:PT Serif 40px;
+    font-size:30px;
+}
+
+#win > span {
+    font-size:30px;
+    display: none;
+}
+#win.Xwin > span.Xwin, 
+#win.Owin > span.Owin,
+#win.draw > span.draw {
+    display: block;
+    background-color: #FF00FF;
+    margin-top: 10px;
+}
+
+#game > li:hover {
+    background: #2c3531;
+    cursor: pointer;
+}
+#game > li.x {
+    font-size: 50px;
+    color: #172FC4;
+}
+
+#game > li.o {
+    font-size: 50px;
+    color: #66DF1C;
+}
+
+.box{
+    margin:15px auto;
+    
+}
+#game {
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    margin: 0 auto;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+#game > li {
+    width: 100px;
+    height: 100px;
+    float: left;
+    overflow: hidden;
+    background: #A9A9A9;
+    border: 1px solid #ccc;
+    text-transform: uppercase;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+#reset{
+    width: 250px;
+    height: 70px;
+    margin: 10px auto;
+    display: block;
+    background-color: #D5C319;
+    font-size: 40px;
+}
+#logout{
+    width: 150px;
+    height: 50px;
+    position: absolute;
+    right: 50px;
+    margin: 20px auto;
+    display: block;
+    background-color: #008080;
+    font-size: 30px;
+
+}
