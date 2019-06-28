@@ -7,7 +7,7 @@
     var msg = document.getElementById('win');
     var arr = [];
     var p1Point = 0;
-    var p1Point = 0;
+    var p2Point = 0;
     var round;
     var data;
     var context = { 'player1' : 'x', 'player2' : 'o' };
@@ -72,7 +72,8 @@
                                                                                                                                             
         switch(run()) {
             case 'x':
-                p1Score.innerHTML = ++p1Point;
+                p2Point+=2;
+                p2Score.innerHTML = p2Point;
                 msg.className = 'Xwin';
                 break;
             case 'o':
