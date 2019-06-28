@@ -72,12 +72,12 @@
                                                                                                                                             
         switch(run()) {
             case 'x':
-                p2Point+=2;
-                p2Score.innerHTML = p2Point;
+                p1Score.innerHTML = ++p1Point;
                 msg.className = 'Xwin';
                 break;
             case 'o':
-                p2Score.innerHTML = ++p1Point;
+                p2Point+=2;
+                p2Score.innerHTML = p2Point;
                 msg.className = 'Owin';
         }
     }
